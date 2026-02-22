@@ -1,0 +1,6 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="200" fill="#a855f7" opacity="0.05" rx="24" />
+  <path d="M50,150 L100,120 L150,130 L200,80 L250,90 L300,40 L350,50" fill="none" stroke="#a855f7" stroke-width="3" opacity="0.6" />
+  <circle cx="350" cy="50" r="6" fill="#a855f7" />
+  <text x="200" y="170" font-family="monospace" font-size="10" fill="#a855f7" text-anchor="middle" opacity="0.5">mIoU_VALIDATION_PASSED</text>
+</svg>

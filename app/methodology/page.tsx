@@ -8,25 +8,29 @@ const steps = [
         icon: Database,
         title: "Falcon Platform Acquisition",
         desc: "Extraction of multi-spectral synthetic data from Falcon engine simulation environments.",
-        details: ["142,000 frames", "14 semantic classes", "Diverse weather presets"]
+        details: ["142,000 frames", "14 semantic classes", "Diverse weather presets"],
+        image: "/methodology-1.svg"
     },
     {
         icon: Workflow,
         title: "Data Preprocessing",
         desc: "Color-to-label mapping and normalization of synthetic desert spectra.",
-        details: ["Class balancing", "Mosaic augmentation", "Resolution standardization"]
+        details: ["Class balancing", "Mosaic augmentation", "Resolution standardization"],
+        image: "/methodology-2.svg"
     },
     {
         icon: Cpu,
         title: "Deep Model Training",
         desc: "Fine-tuning SegFormer and DeepLabV3+ architectures with custom loss functions.",
-        details: ["Weighted Cross-Entropy", "Adan Optimizer", "Mixed Precision (FP16)"]
+        details: ["Weighted Cross-Entropy", "Adan Optimizer", "Mixed Precision (FP16)"],
+        image: "/methodology-3.svg"
     },
     {
         icon: TestTube2,
         title: "Performance Validation",
         desc: "Testing on held-out desert datasets and unseen environments to ensure generalization.",
-        details: ["mIoU Benchmarking", "Latency Analysis", "Edge-case stress testing"]
+        details: ["mIoU Benchmarking", "Latency Analysis", "Edge-case stress testing"],
+        image: "/methodology-4.svg"
     }
 ];
 
@@ -82,8 +86,13 @@ export default function MethodologyPage() {
                                             <step.icon className="w-8 h-8 text-accent-purple" />
                                         </div>
                                     )}
-                                    {/* Decorative element for the empty side */}
-                                    <div className="hidden lg:block w-full h-[200px] border border-white/5 rounded-3xl bg-white/[0.01]" />
+                                    {/* Visual Graphic replaces the empty box */}
+                                    <motion.div
+                                        whileHover={{ scale: 1.02 }}
+                                        className="hidden lg:flex w-full h-[200px] border border-white/5 rounded-3xl bg-white/[0.01] items-center justify-center overflow-hidden"
+                                    >
+                                        <img src={step.image} alt={step.title} className="w-full h-full object-cover" />
+                                    </motion.div>
                                 </div>
                             </motion.div>
                         ))}

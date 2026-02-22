@@ -1,0 +1,16 @@
+<svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gridGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="200" fill="url(#gridGrad)" rx="24" />
+  <g fill="none" stroke="#3b82f6" stroke-width="0.5" opacity="0.3">
+    <path d="M0 40H400M0 80H400M0 120H400M0 160H400" />
+    <path d="M40 0V200M80 0V200M120 0V200M160 0V200M200 0V200M240 0V200M280 0V200M320 0V200M360 0V200" />
+  </g>
+  <circle cx="200" cy="100" r="40" fill="#3b82f6" opacity="0.1" />
+  <path d="M180 100L200 80L220 100L200 120Z" fill="#3b82f6" />
+  <text x="200" y="150" font-family="monospace" font-size="10" fill="#3b82f6" text-anchor="middle" opacity="0.5">STREAMING_INPUT_01</text>
+</svg>
