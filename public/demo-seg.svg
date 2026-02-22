@@ -1,0 +1,23 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky -->
+  <rect width="800" height="300" fill="#3b82f6" />
+  <!-- Horizon / Landscape -->
+  <polygon points="0,300 200,250 400,310 600,270 800,320 800,450 0,450" fill="#92400e" />
+  <!-- Ground -->
+  <rect y="450" width="800" height="350" fill="#78350f" />
+  <!-- Rocks -->
+  <path d="M50,600 Q150,500 250,650 L300,750 L0,750 Z" fill="#475569" />
+  <path d="M500,550 Q600,450 750,600 L800,700 L450,700 Z" fill="#475569" />
+  <!-- Trees -->
+  <circle cx="150" cy="400" r="60" fill="#22c55e" />
+  <circle cx="650" cy="420" r="50" fill="#22c55e" />
+  <!-- Lush Bushes -->
+  <ellipse cx="400" cy="500" rx="100" ry="40" fill="#10b981" />
+  <!-- Dry Bushes -->
+  <ellipse cx="250" cy="650" rx="60" ry="30" fill="#b45309" />
+  <ellipse cx="600" cy="700" rx="80" ry="35" fill="#b45309" />
+  <!-- Flowers -->
+  <circle cx="200" cy="680" r="10" fill="#ec4899" />
+  <circle cx="220" cy="690" r="10" fill="#ec4899" />
+  <circle cx="550" cy="720" r="10" fill="#ec4899" />
+</svg>

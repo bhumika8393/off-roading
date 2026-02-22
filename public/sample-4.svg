@@ -1,0 +1,6 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" fill="#1a1a1a" />
+  <rect width="800" height="200" fill="#3b82f6" opacity="0.2" />
+  <path d="M0,300 L200,200 L400,350 L600,150 L800,300 L800,500 L0,500 Z" fill="#92400e" opacity="0.3" />
+  <text x="400" y="250" font-family="Arial" font-size="24" fill="white" text-anchor="middle" opacity="0.5">Offroad Terrain Sample</text>
+</svg>
