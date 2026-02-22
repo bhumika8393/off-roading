@@ -1,0 +1,6 @@
+<svg width="400" height="500" viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="500" fill="#1e1e1e" />
+  <circle cx="200" cy="180" r="80" fill="#22c55e" opacity="0.2" />
+  <path d="M100,400 Q200,300 300,400 L300,500 L100,500 Z" fill="#22c55e" opacity="0.2" />
+  <text x="200" y="470" font-family="Arial" font-size="14" fill="#22c55e" text-anchor="middle" font-weight="bold" opacity="0.5">TEAM_MEMBER_03</text>
+</svg>

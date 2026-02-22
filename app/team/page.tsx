@@ -8,19 +8,19 @@ const team = [
         name: "Alex River",
         role: "AI Engineer",
         bio: "Specializing in Transformer-based architectures for computer vision and edge-device optimization.",
-        image: "/team-1.jpg"
+        image: "/team-1.svg"
     },
     {
         name: "Sarah Chen",
         role: "Documentation Lead",
         bio: "Translating complex engineering pipelines into comprehensive technical research reports.",
-        image: "/team-2.jpg"
+        image: "/team-2.svg"
     },
     {
         name: "Marcus Thorne",
         role: "Presentation Lead",
         bio: "Focusing on visualization of AI decision-making processes and project strategy.",
-        image: "/team-3.jpg"
+        image: "/team-3.svg"
     }
 ];
 
