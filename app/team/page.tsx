@@ -5,22 +5,28 @@ import { Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 const team = [
     {
-        name: "Alex River",
+        name: "Manasvi V",
         role: "AI Engineer",
         bio: "Specializing in Transformer-based architectures for computer vision and edge-device optimization.",
         image: "/team-1.svg"
     },
     {
-        name: "Sarah Chen",
+        name: "K R Bhumika",
         role: "Documentation Lead",
         bio: "Translating complex engineering pipelines into comprehensive technical research reports.",
         image: "/team-2.svg"
     },
     {
-        name: "Marcus Thorne",
+        name: "Sneha",
+        role: "Research Lead",
+        bio: "Driving the core research on synthetic-to-real domain adaptation for off-road environments.",
+        image: "/team-3.svg"
+    },
+    {
+        name: "Bhoomika Y M",
         role: "Presentation Lead",
         bio: "Focusing on visualization of AI decision-making processes and project strategy.",
-        image: "/team-3.svg"
+        image: "/team-4.svg"
     }
 ];
 
@@ -35,7 +41,7 @@ export default function TeamPage() {
                     </p>
                 </header>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-32">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-32">
                     {team.map((member, index) => (
                         <motion.div
                             key={member.name}
